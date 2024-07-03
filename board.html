@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>문의사항</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/board.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.png">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js" defer type="text/javascript"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- 헤더 영역 -->
+        <header class="header cfixed">
+            <h1 class="logo"><a href="index.html"><img src="images/Selfmade/Logo.png" alt="비커피"></a></h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="introduce.html">소개</a></li>
+                    <li><a href="gallery.html">갤러리</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="board.html">문의사항</a></li>
+                </ul>
+            </nav>
+            <span class="menu_toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </header>
+
+        <section class="sub_header_section">
+            <h2>문의하기</h2>
+        </section>
+
+        <!-- 콘텐츠 영역 -->
+        <section class="content_section">
+            <!--작성란 - 제목, 작성자, 비밀번호, 내용입력, 첨부파일-->
+            <div class="form-box">
+                <form action="" method="">
+                    <fieldset class="cfixed">
+                        <legend class="blind">ASK</legend>
+                        <div class="form">
+                            <label for="title">제목</label>
+                            <input type="text" id="title" placeholder="제목을 입력해주세요">
+                            <label for="name">작성자</label>
+                            <input type="text" id="name" placeholder="성함 또는 닉네임을 입력해주세요">
+                            <label for="email">답장 받을 이메일 주소</label>
+                            <input type="email" id="email" placeholder="이메일 주소를 입력해주세요">
+                            <label for="password">비밀번호</label>
+                            <input type="password" id="password" placeholder="임호를 설정해주세요">
+                        </div>
+                        <div class="textarea">
+                            <label for="message">내용 입력</label>
+                            <textarea name="message" id="message" placeholder="내용을 입력해주세요"></textarea>
+                        </div>
+                        <div class="form">
+                            <label for="file">첨부파일</label>
+                            <input type="file" id="file" placeholder="첨부파일">
+                        </div>
+                    </fieldset>
+                    <div class="send-btn">
+                        <button>보내기</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- 푸터 영역 -->
+        <footer class="footer">
+            <div class="copy">
+                <div class="copyright">
+                    <p>copyright&copy;2024. All Rights reserved.<br>Original Image in pixabay.</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="call">
+                    <div>
+                        <h6>전화번호</h6>
+                        <span>031-000-1234</span>
+                    </div>
+                    <div>
+                        <h6>본사 주소</h6>
+                        <span>경기도 안양시 동안구 동안로1 3층</span>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a href="https://www.instagram.com/"><img src="images/sns/Instagram_Glyph_Gradient.png" alt="인스타그램"></a></li>
+                        <li><a href="https://section.blog.naver.com/BlogHome.naver?directoryNo=0&currentPage=1&groupId=0"><img src="images/sns/블로그2.png" alt="네이버 블로그"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
