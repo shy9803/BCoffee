@@ -65,6 +65,7 @@
     height: auto;
     position: relative;
     overflow: hidden;
+    z-index: -5;
 }
 .slidelist {
     width: 5760px;
