@@ -211,7 +211,7 @@
         flex-wrap: wrap;
     }
     .gallery_list li {
-        width: 48.5%;
+        width: 48%;
         margin: 0 6px;
     }
     .gallery_list li:nth-child(2) {
